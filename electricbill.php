@@ -15,7 +15,7 @@
 		$units = $_POST['kwh'];
 		if (!empty($units)) {
 			$kwh_usage = calculate_electricity_bill($units);
-			$amount = '<strong>Total amount of ' . $units . ' units -</strong> ' . $kwh_usage;
+			$amount = "<strong>Total amount of   $units  units is </strong>   $kwh_usage Naria ";
 		}
 	}
 	/**
@@ -68,7 +68,7 @@
 		<div class="form-group">
 		<form action="" method="post">
 			<div class="form-group">
-				<input type="number" name="kwh" placeholder="Please enter no. of Units" class="form-control" />
+				<input type="number" min="1"  max="1000000" name="kwh" placeholder="Please enter no. of Units" class="form-control" />
 			</div>
 			<br>
 			<div class="form-group">		
