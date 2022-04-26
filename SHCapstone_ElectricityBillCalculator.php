@@ -60,8 +60,6 @@
     
     return $price;
   }
-  
-  $price = calculateElectricityBill(249);
 ?>
 <!DOCTYPE html>
 <html lang="en">
