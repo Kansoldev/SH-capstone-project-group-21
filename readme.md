@@ -1,1 +1,1 @@
-## Side Hustle capstone project on electricity bill by Group 21
+## Side Hustle capstone project by Group 21
